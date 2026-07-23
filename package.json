@@ -1,0 +1,24 @@
+{
+  "name": "se-connex-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://websiameast-ops.github.io/fuzzy-octo-lamp",
+  "description": "SE Connex v5 — marketing landing page (React + Vite). A platform by SiamEast Solutions PCL.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.10"
+  }
+}
